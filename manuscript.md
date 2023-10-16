@@ -1,5 +1,18 @@
-Hi Vivliostyle, I'm a VFM manuscript!
+# {吾輩|わがはい}は猫である
 
-test!!!!
+## はじめに
+
+### test!!!! ###
 
 test!
+
+##
+
+ばいばい
+
+<style>
+section {
+    margin: 1em;
+    border: 1px solid;
+}
+</style>
