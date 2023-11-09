@@ -14,5 +14,5 @@ module.exports = {
       format: 'webpub',
     },
   ],
-  theme: '@vivliostyle/theme-bunko',
+  // theme: '@vivliostyle/theme-bunko',
 };
