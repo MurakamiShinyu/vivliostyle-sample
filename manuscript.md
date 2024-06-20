@@ -19,4 +19,4 @@ section {
 
 # もう一つの大見出し
 
-Foo
+Foo Bar
