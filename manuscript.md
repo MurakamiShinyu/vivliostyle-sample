@@ -8,7 +8,7 @@ TEST
 
 ## 
 
-ばいばい
+ばいばい。
 
 <style>
 section {
