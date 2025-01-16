@@ -3,6 +3,7 @@ module.exports = {
   author: 'spring-raining',
   language: 'en',
   size: 'A4',
+  theme: 'style.css',
   entry: 'manuscript.md',
   output: [
     {
