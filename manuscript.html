@@ -4,10 +4,14 @@
     <meta charset="utf-8">
     <title>吾輩は猫である</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <section class="level1" aria-labelledby="吾輩は猫である">
       <h1 id="吾輩は猫である"><ruby>吾輩<rt>わがはい</rt></ruby>は猫である</h1>
+      <ul>
+        <li><a href="#baa">LINK</a></li>
+      </ul>
       <section class="level2" aria-labelledby="はじめに">
         <h2 id="はじめに">はじめに</h2>
         <h3 id="test">test!!!!</h3>
@@ -17,11 +21,18 @@
       <style>section {
 margin: 1em;
 border: 1px solid;
+position: relative;
 }</style>
     </section>
-    <section class="level1" aria-labelledby="もう一つの大見出し">
-      <h1 id="もう一つの大見出し">もう一つの大見出し</h1>
+    <section class="level1" aria-labelledby="foo">
+      <h1 id="foo" style="break-before:page">もう一つの大見出し</h1>
       <p>Foo Bar</p>
+      <div style="position:absolute;top:100px;left:100px;">
+        <section class="level2" aria-labelledby="baa">
+          <h2 id="baa">Baa</h2>
+          <p>This is a test.</p>
+        </section>
+      </div>
     </section>
   </body>
 </html>
