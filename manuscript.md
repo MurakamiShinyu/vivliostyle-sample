@@ -1,19 +1,3 @@
-<style>
-.page {
-break-before: page;
-position: relative;
-width: 500px;
-height: 500px;
-}
-.abspos {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-</style>
-
 <h1>Navigation Test</h1>
 <nav>
 <h2>Table of Contents</h2>
