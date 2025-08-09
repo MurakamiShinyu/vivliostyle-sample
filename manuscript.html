@@ -2,37 +2,55 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>吾輩は猫である</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <section class="level1" aria-labelledby="吾輩は猫である">
-      <h1 id="吾輩は猫である"><ruby>吾輩<rt>わがはい</rt></ruby>は猫である</h1>
-      <ul>
-        <li><a href="#baa">LINK</a></li>
-      </ul>
-      <section class="level2" aria-labelledby="はじめに">
-        <h2 id="はじめに">はじめに</h2>
-        <h3 id="test">test!!!!</h3>
-        <p>TEST</p>
-      </section>
-      <p>ばいばい。</p>
-      <style>section {
-margin: 1em;
-border: 1px solid;
+    <style>.page {
+break-before: page;
 position: relative;
+width: 500px;
+height: 500px;
+}
+.abspos {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }</style>
-    </section>
-    <section class="level1" aria-labelledby="foo">
-      <h1 id="foo" style="break-before:page">もう一つの大見出し</h1>
-      <p>Foo Bar</p>
-      <div style="position:absolute;top:100px;left:100px;">
-        <section class="level2" aria-labelledby="baa">
-          <h2 id="baa">Baa</h2>
-          <p>This is a test.</p>
+    <h1>Navigation Test</h1>
+    <nav>
+      <h2>Table of Contents</h2>
+      <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+      </ul>
+    </nav>
+    <div class="page">
+      <div class="abspos">
+        <section id="section1">
+          <h3>Section 1</h3>
+          <p>This is the content of Section 1.</p>
         </section>
       </div>
-    </section>
+    </div>
+    <div class="page">
+      <div class="abspos">
+        <section id="section2">
+          <h3>Section 2</h3>
+          <p>This is the content of Section 2.</p>
+        </section>
+      </div>
+    </div>
+    <div class="page">
+      <div class="abspos">
+        <section id="section3">
+          <h3>Section 3</h3>
+          <p>This is the content of Section 3.</p>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
